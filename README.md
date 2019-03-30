@@ -1,6 +1,8 @@
 # relay-compiler-language-js-flow-uncommented
 Language plugin for Relay that generates the same output as the default compiler, but with Flow types as actual source and not inside comments. 
 
+*Compability*: Relay `>=2.0.0`.
+
 ## Why?
 Some IDEs/editors (like WebStorm/IDEA) do not understand Flow when it's inside comments (even though that's actually valid Flow). This thin language plugin solves that. 
 
