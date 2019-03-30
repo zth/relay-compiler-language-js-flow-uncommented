@@ -1,0 +1,47 @@
+{
+  "name": "relay-compiler-language-js-flow-uncommented",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "description": "Language plugin for Relay that generates the same output as the default compiler, but with Flow types as actual source and not inside comments.",
+  "keywords": [
+    "relay",
+    "graphql",
+    "react",
+    "flow"
+  ],
+  "homepage": "https://github.com/zth/relay-compiler-language-js-flow-uncommented",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+    "https://github.com/zth/relay-compiler-language-js-flow-uncommented.git"
+  },
+  "bugs": {
+    "url":
+    "https://github.com/zth/relay-compiler-language-js-flow-uncommented/issues"
+  },
+  "scripts": {
+    "build": "rm -rf lib && babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-flow": "^7.0.0",
+    "relay-compiler": "^2.0.0",
+    "relay-runtime": "^2.0.0"
+  },
+  "peerDependencies": {
+    "relay-compiler": ">=2.0.0",
+    "relay-runtime": "*"
+  },
+  "dependencies": {
+    "flow-typed": "^2.5.1"
+  }
+}
