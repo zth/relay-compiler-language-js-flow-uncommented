@@ -1,6 +1,6 @@
 {
   "name": "relay-compiler-language-js-flow-uncommented",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
@@ -33,15 +33,10 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
-    "@babel/preset-flow": "^7.0.0",
-    "relay-compiler": "3.0.0",
-    "relay-runtime": "3.0.0"
+    "@babel/preset-flow": "^7.0.0"
   },
   "peerDependencies": {
-    "relay-compiler": ">=2.0.0",
+    "relay-compiler": ">=1.7.0-rc.1",
     "relay-runtime": "*"
-  },
-  "dependencies": {
-    "flow-typed": "^2.5.1"
   }
 }
