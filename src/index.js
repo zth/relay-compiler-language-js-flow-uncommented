@@ -10,11 +10,11 @@
 
 'use strict';
 
-const RelayFlowGenerator = require('relay-compiler/lib/RelayFlowGenerator');
+const RelayFlowGenerator = require('relay-compiler/lib/language/javascript/RelayFlowGenerator');
 
 const formatGeneratedModule = require('./formatGeneratedModule');
 
-const {find} = require('relay-compiler/lib/FindGraphQLTags');
+const {find} = require('relay-compiler/lib/language/javascript/FindGraphQLTags');
 
 import type {PluginInterface} from '../RelayLanguagePluginInterface';
 
