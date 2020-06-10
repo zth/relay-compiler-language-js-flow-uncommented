@@ -1,6 +1,6 @@
 {
   "name": "relay-compiler-language-js-flow-uncommented",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
@@ -19,12 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url":
-    "https://github.com/zth/relay-compiler-language-js-flow-uncommented.git"
+    "url": "https://github.com/zth/relay-compiler-language-js-flow-uncommented.git"
   },
   "bugs": {
-    "url":
-    "https://github.com/zth/relay-compiler-language-js-flow-uncommented/issues"
+    "url": "https://github.com/zth/relay-compiler-language-js-flow-uncommented/issues"
   },
   "scripts": {
     "build": "rm -rf lib && babel src --out-dir lib",
@@ -36,7 +34,7 @@
     "@babel/preset-flow": "^7.0.0"
   },
   "peerDependencies": {
-    "relay-compiler": ">=1.7.0-rc.1",
+    "relay-compiler": "*",
     "relay-runtime": "*"
   }
 }

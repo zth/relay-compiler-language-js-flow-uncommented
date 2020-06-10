@@ -1,10 +1,13 @@
 # relay-compiler-language-js-flow-uncommented
-Language plugin for Relay that generates the same output as the default compiler, but with Flow types as actual source and not inside comments. 
+
+Language plugin for Relay that generates the same output as the default compiler, but with Flow types as actual source and not inside comments.
 
 ## Why?
-Some IDEs/editors (like WebStorm/IDEA) do not understand Flow when it's inside comments (even though that's actually valid Flow). This thin language plugin solves that. 
+
+Some IDEs/editors (like WebStorm/IDEA) do not understand Flow when it's inside comments (even though that's actually valid Flow). This thin language plugin solves that.
 
 ## Usage
+
 Install the package.
 
 ```
@@ -12,6 +15,7 @@ yarn add --dev relay-compiler-language-js-flow-uncommented
 ```
 
 In your script that runs the compiler, add `--language js-flow-uncommented`. Example as a script in `package.json`:
+
 ```
 ...
 "scripts": {
